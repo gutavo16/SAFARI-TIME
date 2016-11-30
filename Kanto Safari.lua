@@ -13,7 +13,7 @@ huntBulba = false        --hunt Bulbasaur all time
 huntChansey = false        --hunt Chansey all time
 huntRhyhorn = false        --hunt Rhyhorn all time
 huntKanga = false        --hunt Kangaskhan all time
-huntChanseyBulba = false        --hunt Chansey and Bulbasaur all time
+huntChanseyBulba = true        --hunt Chansey and Bulbasaur all time
 
 
     -- If you want to use this Go to Synchronize Section after picking 1 at the bottom
@@ -62,7 +62,7 @@ fswipeOn = false        --Switch to pokemon with false swipe, use false swipe un
 sleepOn = false            --Switch to pokemon with sleep move, use sleep move until the hunted pokes status is SLEEPING then throw pokeballs
 advanceCatchOn = false        --Use fswipeOn and sleepOn to catch hunted pokes
 
-falseswiper = 4            --Index of pokemon with false swipe
+falseswiper = 2            --Index of pokemon with false swipe
 fswipeHP = 10            --Returns the health percent of the false swiper, then heal to PC
 weakmove = "False Swipe"    --False Swipe move --Change to "None" if you don't have
 
@@ -117,7 +117,7 @@ pokeNumber = 2
 
     --Pick only one area of farming
 
-cCave = true        --Start farming at Cerulean Cave 1F
+cCave = false        --Start farming at Cerulean Cave 1F
 sFoam = false        --Start farming at Seafoam B4F
 
 
