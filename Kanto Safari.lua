@@ -13,7 +13,7 @@ huntBulba = false        --hunt Bulbasaur all time
 huntChansey = false        --hunt Chansey all time
 huntRhyhorn = false        --hunt Rhyhorn all time
 huntKanga = false        --hunt Kangaskhan all time
-huntChanseyBulba = false        --hunt Chansey and Bulbasaur all time
+huntChanseyBulba = true        --hunt Chansey and Bulbasaur all time
 
 
     -- If you want to use this Go to Synchronize Section after picking 1 at the bottom
@@ -49,7 +49,7 @@ huntScytherRhyhorn = false        --hunt Scyther and Rhyhorn all time
 synch1 = 1            --Pokemon Index of 1st SynchPoke
 nature1 = "Timid"    --Pokemon Nature of 1st SynchPoke
 synch2 = 3            --Pokemon Index of 2nd SynchPoke
-nature2 = "Adamant"    --Pokemon Nature of 2nd SynchPoke
+nature2 = "Bold"    --Pokemon Nature of 2nd SynchPoke
 
 
     -- You can only choose One Special Catching, set true, else leave the 3 false
@@ -57,18 +57,18 @@ nature2 = "Adamant"    --Pokemon Nature of 2nd SynchPoke
                                    --Leave blank at sleepmove/weakmove if you don't have atleast
 
 
-normalCatchOn = true        --Directly throw pokeballs on hunted pokemons
+normalCatchOn = false        --Directly throw pokeballs on hunted pokemons
 fswipeOn = false        --Switch to pokemon with false swipe, use false swipe until the hunted pokes hp is reach to 1 then throw pokeballs
-sleepOn = false            --Switch to pokemon with sleep move, use sleep move until the hunted pokes status is SLEEPING then throw pokeballs
+sleepOn = true            --Switch to pokemon with sleep move, use sleep move until the hunted pokes status is SLEEPING then throw pokeballs
 advanceCatchOn = false        --Use fswipeOn and sleepOn to catch hunted pokes
 
-falseswiper = 4            --Index of pokemon with false swipe
+falseswiper = 6            --Index of pokemon with false swipe
 fswipeHP = 10            --Returns the health percent of the false swiper, then heal to PC
 weakmove = "False Swipe"    --False Swipe move --Change to "None" if you don't have
 
 sleeper = 4            --Index of pokemon with sleep move
 sleeperHP = 10            --Returns the health percent of the false swiper, then heal to PC
-sleepmove = "None"        --Set/Change the name of the sleep move --Change to "None" if you don't have
+sleepmove = "Hypnosis"        --Set/Change the name of the sleep move --Change to "None" if you don't have
 
 
 
@@ -117,7 +117,7 @@ pokeNumber = 2
 
     --Pick only one area of farming
 
-cCave = true        --Start farming at Cerulean Cave 1F
+cCave = false        --Start farming at Cerulean Cave 1F
 sFoam = false        --Start farming at Seafoam B4F
 
 
